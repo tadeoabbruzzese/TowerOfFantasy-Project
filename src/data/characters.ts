@@ -22,6 +22,18 @@ export interface Character {
     skill: string;
     discharge: string;
   };
+  matrices: {
+    set2: string;
+    set4: string;
+  };
+  advancements: {
+    star1: string;
+    star2: string;
+    star3: string;
+    star4: string;
+    star5: string;
+    star6: string;
+  };
 }
 
 export interface CharacterTier {
@@ -54,7 +66,20 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to trigger Ice Rush, dealing AoE ice damage.',
       skill: 'Create an ice barrier that blocks projectiles and slows enemies.',
       discharge: 'Deal massive ice damage in a large area around you.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases frost damage by 10% and shatter by 15%.',
+      star2: 'Increase shatter by 16%',
+      star3: 'Increases frost damage by an additional 15% and critical hit rate by 10%.',
+      star4: 'Increase shatter by 32%',
+      star5: 'Increases all damage by 20% when HP is above 50%.',
+      star6: 'Ice barrier now freezes enemies that touch it for 3 seconds.'
     }
+    
   },
   {
     id: 'king',
@@ -79,6 +104,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to trigger Returning Blade, pulling enemies closer.',
       skill: 'Unleash a spinning scythe attack that deals continuous fire damage.',
       discharge: 'Summon dual blades and dash through enemies, dealing massive fire damage.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -104,6 +141,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to trigger a spinning aerial attack.',
       skill: 'Summon a domain that continuously deals volt damage to enemies within.',
       discharge: 'Rapidly fire pistols in all directions, dealing massive volt damage.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases volt damage by 10% and critical hit rate by 5%.',
+      star2: 'Aerial attacks deal 30% more damage.',
+      star3: 'Every 3 critical hits generate a volt explosion.',
+      star4: 'Domain duration increased by 5s and damage by 20%.',
+      star5: 'Gain 50% damage reduction while using discharge skill.',
+      star6: 'Critical hits restore 1% of max HP.'
     }
   },
   {
@@ -129,6 +178,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to create a healing field.',
       skill: 'Deploy an electron cube that attacks enemies and heals allies.',
       discharge: 'Create a large healing field and fire powerful volt beams.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases volt damage by 10% and critical hit rate by 5%.',
+      star2: 'Aerial attacks deal 30% more damage.',
+      star3: 'Every 3 critical hits generate a volt explosion.',
+      star4: 'Domain duration increased by 5s and damage by 20%.',
+      star5: 'Gain 50% damage reduction while using discharge skill.',
+      star6: 'Critical hits restore 1% of max HP.'
     }
   },
   {
@@ -154,6 +215,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to teleport behind enemies and unleash a powerful backstab.',
       skill: 'Throw a thunder blade that deals volt damage in a line.',
       discharge: 'Dash through enemies multiple times, dealing massive volt damage.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases volt damage by 10% and critical hit rate by 5%.',
+      star2: 'Aerial attacks deal 30% more damage.',
+      star3: 'Every 3 critical hits generate a volt explosion.',
+      star4: 'Domain duration increased by 5s and damage by 20%.',
+      star5: 'Gain 50% damage reduction while using discharge skill.',
+      star6: 'Critical hits restore 1% of max HP.'
     }
   },
   {
@@ -179,6 +252,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to create a shield for nearby allies.',
       skill: 'Create a domain that negates projectiles and heals allies.',
       discharge: 'Generate energy orbs that damage enemies and heal allies.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -204,6 +289,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to deal more damage.',
       skill: 'Deal multiple slashes that deal physical damage and provides physical buffs to the team.',
       discharge: 'Applies stacks of physical buffs.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -229,6 +326,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to deal multiple slash that deals more damage.',
       skill: 'Create a domain that gives hyperbody.',
       discharge: 'Unleash a massive slash that deals a heavy damage.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -254,6 +363,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to shot multiple bullets and deal damage.',
       skill: 'Fire 3 rounds of bombs forward that explode upon hitting targets or after reaching max range, dealing fire damage and launching targets.',
       discharge: 'Fire a high-explosive bomb at the target location, creating a Detonating Zone that persists for a duration.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -279,6 +400,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack  trigger Surrounding Sparks, dealing fire damage and creating a shield for nearby Wanderers and teammates, lasting for a certain duration.',
       skill: 'Summon a Blazing Fan at the target location, dealing fire damage to enemies within range and inflicting a burn effect for a duration.',
       discharge: 'Unleash a Blazing Fan that explodes after a short delay, dealing massive fire damage to nearby enemies and launching them.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -304,6 +437,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to dealing ice damage and inflicting a Frostbite effect.',
       skill: 'Unleash a wave that travels forward, dealing ice damage to enemies along its path and inflicting a Freeze effect.',
       discharge: 'Create a Snowstorm Sanctuary at the current location. Enemies within the sanctuary take continuous ice damage and have their movement speed and Allies within the sanctuary gain increased shatter.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -329,6 +474,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to trigger Shadowshift, dealing altered damage and leaving behind a Shadow Clone that explodes after a short delay.',
       skill: 'Release a Lotus Bloom that travels forward, dealing altered damage to enemies along its path and pulling them towards the end of its trajectory. Within the area, players receive massive buffs according to different elements.',
       discharge: 'Create a Serene Domain at the current location. Within the domain, allies gain increased damage and shatter. At the end of the duration, the domain explodes, dealing massive altered damage to nearby enemies.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   },
   {
@@ -354,6 +511,18 @@ export const characters: Character[] = [
       dodge: 'Dodge then attack to trigger Lightning Dash, dealing volt damage and leaving behind a Lightning Mark on the target. After a short delay, the mark detonates, dealing additional volt damage.',
       skill: 'Summon a Stormcaller at the target location that pulses with lightning, dealing volt damage to nearby enemies and increasing their received volt damage for a duration.',
       discharge: 'Unleash a powerful lightning strike at the target dealing massive volt damage to enemies within the area.'
+    },
+    matrices: {
+      set2: 'Increases frost damage by 15% and reduces target\'s frost resistance by 25% for 10 seconds.',
+      set4: 'When HP is above 50%, increases frost damage by an additional 25% and generates a frost shield that absorbs damage equal to 25% of max HP.'
+    },
+    advancements: {
+      star1: 'Increases damage against burning enemies by 15%.',
+      star2: 'Extends burn duration by 50% and increases burn damage by 30%.',
+      star3: 'Critical hits have a 50% chance to cause an explosion, dealing additional fire damage.',
+      star4: 'Skill now pulls enemies towards you and increases damage by 20%.',
+      star5: 'Increases attack speed by 15% for 10s after using discharge skill.',
+      star6: 'Killing an enemy extends all buff durations by 5 seconds.'
     }
   }
 ];
